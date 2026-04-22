@@ -26,7 +26,7 @@ After downloading both files, verify the jar before running it:
 ## Changelog
 
 <details open>
-<summary><strong>0.0.3</strong></summary>
+<summary><strong>0.0.4</strong></summary>
 
 <br>
 
