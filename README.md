@@ -14,13 +14,15 @@ Get the [latest release here](https://github.com/2011Scape/void-client-releases/
 After downloading both files, verify the jar before running it:
 
 ```bash
-  sha256sum --check void-client-x.jar.sha256
+sha256sum --check void-client-x.jar.sha256
 ```
 
-## Run
+## Usage
+
+Run with:
 
 ```bash
-  java -jar runelite-void-client-x.jar --address xxx.xxx.xxx.xxx --port xxxxx
+java -jar runelite-void-client-x.jar --address xxx.xxx.xxx.xxx --port xxxxx
 ```
 
 ## Changelog
@@ -28,24 +30,29 @@ After downloading both files, verify the jar before running it:
 <details open>
 <summary><strong>0.0.4</strong></summary>
 
-<br>
-
-<table>
-<pre>
 - Fixed stretched mode on Linux distributions.
 - Fixed stretched mode scaling for resizable screen sizing.
 - Switched stretched-mode resizable scaling from percentage integer to factor to resolve various rendering bugs.
-</pre>
-
-## Usage
-
-Run with:
-
-```bash
-java -jar runelite-void-client-0.0.4.jar --address xxx.xxx.xxx.xxx --port xxxxx
-```
-</table>
 
 </details>
 
-## This repository only hosts public release artifacts.
+<details>
+<summary><strong>0.0.3</strong></summary>
+
+#### XP Tracker
+- Added skill icons.
+- Adjusted progress bar height, spacing, and fill rendering.
+- Made XP tracker state persist across restarts.
+- Added a reset button.
+
+#### Client
+- Fixed sidebar side switching by removing the crash-prone forced redraw.
+- Restored launcher options (e.g. `--address` and `--port`).
+- Updated brown UI theme to match the 2011 styling.
+- Fixed various crashes related to UI layouts and redrawing the client.
+
+</details>
+
+---
+
+*This repository only hosts public release artifacts.*
