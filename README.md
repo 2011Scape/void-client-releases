@@ -28,7 +28,7 @@ java -jar runelite-void-client-x.jar --address xxx.xxx.xxx.xxx --port xxxxx
 ## Changelog
 
 <details open>
-<summary><strong>0.1.0</strong></summary>
+<summary><strong>0.1.1</strong></summary>
 
 #### RuneLite UI
 - Rebuilt the XP tracker panel to closely match RuneLite's original XP tracker.
